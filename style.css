@@ -1,11 +1,14 @@
+/*GENERIC CSS*/
 body{
     background-color: rgb(30, 30, 30);
     color: white;
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
 .title{
     text-align: center;
+    font-size: 75px;
     font-weight: 500;
 }
 
@@ -17,9 +20,9 @@ img{
     width: 800px;
 }
 
-ul>li{
-    list-style-type: none;
+ul.links>li{
     text-align: center;
+    list-style-type: none;
     font-size: 50px;
 }
 ul>li>a{
@@ -37,3 +40,31 @@ ul>li>a:active{
 
     color: rgb(173, 173, 173)
 }
+
+/*RECIPES CSS*/
+
+.desc, h3
+{
+    font-size: 50px;
+    font-weight: 200;
+    text-decoration: underline;
+}
+
+p
+{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 25px;
+}
+
+.ingredients, ol
+{
+    display: inline-block;
+    font-size: 25px;
+}
+li
+{
+    padding-bottom: 5px;
+    text-align: left;
+}
+
